@@ -1,0 +1,6 @@
+APP_CFLAGS := -DHAVE_CONFIG_H -DTHREADMODEL=POSIXTHREADS -DDEBUGLVL=0 -D__ANDROID__
+APP_CFLAGS += -O3
+
+APP_MODULES := libblkid libuuid droid-blkid
+APP_OPTIM :=release
+APP_ABI  := armeabi-v7a
